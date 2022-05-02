@@ -14,3 +14,11 @@ app.set("view engine", "ejs");
 app.get("/", function(req, res){
     res.render("pages/main");
 });
+
+app.get("/worm", function(req, res){
+    res.render("pages/worm");
+});
+
+app.get("/pump", function(req, res){
+    res.render("pages/pump");
+});
